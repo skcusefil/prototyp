@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Glossar - Log7-Consult GmbH</title>  
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Firma Name</h1>
+  </header>
+  <nav id="nav">
+    <!-- <a href="#term1">Unterseiten1</a>
+    <a href="#term2">Unterseiten2</a>
+    <a href="#term3">Unterseiten3</a>
+    <a href="#term4">Unterseiten4</a>
+    <a href="#term5">Unterseiten5</a> -->
+  </nav>
+
+
+<div class="main_container">
+
+<!-- Search function -->
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Suche nach Begriffen">
+    </div>
+
+  <div class="content" id="content" style="width: 100%;">
+    <!-- ถ้าจะใส่ข้อมูลแบบ manual ก็ใส่ section เพิ่มไปเรื่อยๆ จนครบ 5 topic -->
+    <!-- <section id="beilspiel">
+        <div>
+            <h2 class="term">Unterseiten 7</h2>
+            <div class="content_detail_container">
+                <div class="content_detail">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas consequat, arcu vel condimentum fringilla, turpis velit dictum nunc, at pretium urna enim non nibh. Morbi ac odio a diam tempor laoreet. Maecenas finibus justo felis, et volutpat dui euismod in. Nullam enim risus, accumsan quis dictum aliquam, sollicitudin id massa. Praesent luctus, ex et ultrices porttitor, lacus arcu consequat risus, placerat finibus lacus dolor sit amet mi. In hac habitasse platea dictumst. Pellentesque non rutrum nisl, sit amet eleifend nisl. Ut vitae tristique leo, ut pulvinar leo. Aenean ut nibh gravida justo commodo consequat.
+                    </p>
+                 </div>
+                 
+                 <div class="content_picture">
+                 </div>
+            </div>
+        </div>
+    </section> -->
+  </div>
+
+
+
+</div>
+
+      <!-- สร้าง function สำหรับ add หัวข้อใหม่ๆ -->
+      <div class="create_new_form">
+        <div style="width: 700px;"> 
+            <form id="addTermForm">
+                <label for="newTopic">Neuer Begriff:</label>
+                <div style="margin-bottom: 25px;">
+                    <input style="width: 100%; height: 30px; font-size: 18px;" type="text" id="newTopic" name="newTopic" required>
+                </div>
+                <label for="newDefinition">Erklärung:</label>
+                <div style="margin-bottom: 25px;">
+                <textarea style="width: 100%; height: 150px; font-size: 18px;" id="newDefinition" name="newDefinition" required></textarea>
+                </div>
+                <button type="submit" >Begriff hinzufügen</button>
+              </form>
+        </div>
+      </div>
+  
+  <footer>
+    time here
+  </footer>
+
+  <script>
+
+    
+  </script>
+</body>
+</html>
